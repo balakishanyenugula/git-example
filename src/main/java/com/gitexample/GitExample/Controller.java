@@ -16,6 +16,9 @@ public class Controller {
 			System.out.println("Welcome to Hyderabad");
 		}
 	}
+	public void addnewMethod(){
+		System.out.println("new method");
+	}
 	
 	@GetMapping("/get")
 	public String getData() {
